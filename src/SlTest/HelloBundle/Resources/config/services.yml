@@ -1,0 +1,7 @@
+parameters:
+#    sl_test_hello.example.class: SlTest\HelloBundle\Example
+
+services:
+#    sl_test_hello.example:
+#        class: %sl_test_hello.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,8 @@
+triton_store:
+    resource: "@TritonStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+sl_test_hello:
+    resource: "@SlTestHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+

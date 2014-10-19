@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}My products{% endblock %}
+
+{% block form %}
+	<form action="{{ path('triton_store_create') }}" method="post" {{ form_enctype(form) }}>
+	{{ form_widget(form) }}
+	<input type="submit" />
+	</form>
+{% endblock %}
